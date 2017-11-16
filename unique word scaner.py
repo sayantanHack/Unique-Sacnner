@@ -10,7 +10,7 @@ word_list=file_read.split()
 for word in word_list:
     if word not in unique_list:
         unique_list.append(word)   
-
-print  word_list        # word list with duplication
+    unique_list.sort()
+print  word_list            # word list with duplication
 print  unique_list          # word list without redundency
 
